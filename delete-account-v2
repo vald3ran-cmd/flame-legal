@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eliminazione account — Flame</title>
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    :root{
+      --accent:#ff2d2d;
+      --accent-soft:#ff5b5b;
+      --text:#ffffff;
+      --text-dim:rgba(255,255,255,.88);
+      --text-muted:rgba(255,255,255,.7);
+      --rule:rgba(255,255,255,.12);
+      --card:rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,"Noto Sans",sans-serif;
+      line-height:1.6;
+      color:var(--text);
+      background:linear-gradient(135deg, #7a0b0b 0%, #2b0000 22%, #0f0000 45%, #000000 72%, #000000 100%) fixed;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+    .page{max-width:960px; margin:0 auto; padding:32px 20px 72px}
+    header{ text-align:center; margin:16px 0 18px}
+    header img{ width:260px; max-width:70vw; height:auto; display:block; margin:0 auto 10px; filter:drop-shadow(0 6px 24px rgba(0,0,0,.55))}
+    h1{
+      margin:6px 0 6px;
+      font-size:30px; letter-spacing:.04em; text-transform:uppercase; font-weight:800;
+    }
+    .updated{
+      color:var(--text-muted);
+      font-size:14px; margin-bottom:8px;
+    }
+    .lead{
+      color:var(--text-dim);
+      background:var(--card);
+      border:1px solid var(--rule);
+      padding:14px 14px;
+      border-radius:14px;
+      backdrop-filter:saturate(120%) blur(2px);
+      margin:14px 0 22px;
+    }
+    h2{
+      font-size:20px; margin:26px 0 8px; font-weight:800; color:var(--accent-soft);
+    }
+    p, li{ color:var(--text-dim); font-size:16px}
+    section{ padding:16px 16px; background:rgba(0,0,0,.22); border:1px solid var(--rule); border-radius:16px; margin:14px 0}
+    section + section{ margin-top:18px}
+    a{ color:#fff; text-decoration:underline}
+    .toc{ display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 6px; padding:12px; border:1px dashed var(--rule); border-radius:12px; background:rgba(255,255,255,.03)}
+    .toc a{ text-decoration:none; padding:6px 10px; border-radius:999px; border:1px solid var(--rule)}
+    footer{
+      margin-top:28px; padding-top:18px; border-top:1px solid var(--rule); color:var(--text-muted); font-size:14px; text-align:center
+    }
+    @media (prefers-reduced-motion:no-preference){
+      header img{transition:transform .2s ease}
+      header img:hover{transform:scale(1.02)}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <img src="logo_flame.jpg" alt="Logo Flame" />
+      <h1>Eliminazione account</h1>
+      <div class="updated">Ultimo aggiornamento: 12 novembre 2025</div>
+    </header>
+
+    <p class="lead">
+      Questa pagina descrive cosa comporta l’eliminazione del tuo account Flame, quali dati vengono cancellati,
+      con quali tempi e come puoi richiedere la rimozione in modo corretto. Prima di procedere, ti invitiamo a leggerla con attenzione.
+    </p>
+
+    <div class="toc">
+      <a href="#1">1. Introduzione</a>
+      <a href="#2">2. Cosa comporta</a>
+      <a href="#3">3. Dati che vengono eliminati</a>
+      <a href="#4">4. Dati che possono restare temporaneamente</a>
+      <a href="#5">5. Eliminazione dall’app</a>
+      <a href="#6">6. Richiesta via email</a>
+      <a href="#7">7. Tempistiche</a>
+      <a href="#8">8. Conseguenze</a>
+      <a href="#9">9. Collegamenti utili</a>
+    </div>
+
+    <section id="1">
+      <h2>1. Introduzione</h2>
+      <p>
+        L’eliminazione dell’account comporta la rimozione dei dati personali associati al tuo profilo Flame,
+        nel rispetto della normativa applicabile e dei tempi tecnici necessari. L’operazione è in genere definitiva
+        e non reversibile.
+      </p>
+    </section>
+
+    <section id="2">
+      <h2>2. Cosa comporta l’eliminazione dell’account</h2>
+      <p>
+        Quando richiedi l’eliminazione del tuo account Flame:
+      </p>
+      <ul>
+        <li>Il tuo profilo non sarà più visibile agli altri utenti.</li>
+        <li>Non potrai più accedere all’App con le credenziali collegate a quell’account.</li>
+        <li>Eventuali abbonamenti o vantaggi collegati al profilo potrebbero cessare in modo definitivo.</li>
+      </ul>
+    </section>
+
+    <section id="3">
+      <h2>3. Dati che vengono eliminati</h2>
+      <p>
+        Salvo eccezioni previste dalla legge o specificate nella nostra Informativa sulla privacy, l’eliminazione
+        dell’account comporta la cancellazione o anonimizzazione dei seguenti dati:
+      </p>
+      <ul>
+        <li>Informazioni di profilo (es. nome, foto, bio, preferenze).</li>
+        <li>Match, like e altre interazioni sociali interne all’App.</li>
+        <li>Messaggi scambiati con altri utenti, nei limiti tecnici indicati al punto seguente.</li>
+        <li>Eventuali impostazioni e preferenze associate al tuo account.</li>
+      </ul>
+    </section>
+
+    <section id="4">
+      <h2>4. Dati che possono restare temporaneamente</h2>
+      <p>
+        Alcuni dati possono essere conservati per un periodo limitato anche dopo la richiesta di eliminazione, per esempio:
+      </p>
+      <ul>
+        <li>Log tecnici essenziali per la sicurezza e la prevenzione di abusi.</li>
+        <li>Dati relativi a segnalazioni o contenuti oggetto di moderazione, ove necessario per tutelare diritti di terzi o del Titolare.</li>
+        <li>Informazioni richieste dalla legge a fini fiscali o contabili (se sono avvenute transazioni).</li>
+      </ul>
+      <p>
+        Tali dati sono trattati esclusivamente per le finalità sopra indicate e conservati per il tempo strettamente necessario.
+      </p>
+    </section>
+
+    <section id="5">
+      <h2>5. Come eliminare l’account dall’app</h2>
+      <p>
+        Se hai ancora accesso al tuo account, la procedura standard di eliminazione avviene direttamente dall’App:
+      </p>
+      <ul>
+        <li>Accedi a Flame con il tuo account.</li>
+        <li>Vai alla sezione <strong>Impostazioni</strong> &gt; <strong>Account</strong>.</li>
+        <li>Seleziona l’opzione <strong>“Elimina account in modo permanente”</strong>.</li>
+        <li>Segui le istruzioni a schermo per confermare la tua identità e completare l’operazione.</li>
+      </ul>
+    </section>
+
+    <section id="6">
+      <h2>6. Richiesta di eliminazione via email</h2>
+      <p>
+        Se non hai più accesso all’App o riscontri problemi tecnici, puoi richiedere l’eliminazione scrivendo a:
+        <a href="mailto:privacy@flameapp.it">privacy@flameapp.it</a>.
+      </p>
+      <p>
+        Per poter gestire la richiesta, è importante che tu specifichi l’indirizzo email associato all’account che desideri eliminare
+        e fornisca le informazioni necessarie a verificare la tua identità.
+      </p>
+    </section>
+
+    <section id="7">
+      <h2>7. Tempistiche di eliminazione</h2>
+      <p>
+        In linea generale, l’eliminazione o anonimizzazione dei dati avviene entro un periodo tecnico ragionevole
+        dalla conferma della richiesta (ad esempio entro 30 giorni), fatti salvi tempi diversi previsti dalla legge o
+        resi necessari da obblighi legali o contenziosi in corso.
+      </p>
+    </section>
+
+    <section id="8">
+      <h2>8. Conseguenze dell’operazione</h2>
+      <p>
+        Una volta completata l’eliminazione:
+      </p>
+      <ul>
+        <li>Non sarà più possibile recuperare il tuo profilo o i contenuti associati.</li>
+        <li>Eventuali vantaggi o abbonamenti collegati all’account non saranno ripristinabili.</li>
+        <li>Per utilizzare nuovamente l’App dovrai creare un nuovo account, ove consentito.</li>
+      </ul>
+    </section>
+
+    <section id="9">
+      <h2>9. Collegamenti utili</h2>
+      <p>
+        • <a href="privacy.html">Informativa sulla privacy</a><br/>
+        • <a href="safety.html">Linee guida per la sicurezza</a>
+      </p>
+    </section>
+
+    <footer>
+      © Flame — Tutti i diritti riservati
+    </footer>
+  </main>
+</body>
+</html>
