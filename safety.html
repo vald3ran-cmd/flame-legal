@@ -1,5 +1,207 @@
-<h2>Sicurezza dei minori</h2>
-<p>Flame è un'app di incontri destinata esclusivamente a utenti maggiorenni (18+). 
-Vietiamo severamente l'accesso ai minori e la condivisione di materiale inappropriato.
-Qualsiasi violazione viene segnalata e comporta la sospensione immediata dell'account.</p>
-<p>Contatti: support@flameapp.it</p>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linee guida per la sicurezza — Flame</title>
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    :root{
+      --accent:#ff2d2d;
+      --accent-soft:#ff5b5b;
+      --text:#ffffff;
+      --text-dim:rgba(255,255,255,.88);
+      --text-muted:rgba(255,255,255,.7);
+      --rule:rgba(255,255,255,.12);
+      --card:rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,"Noto Sans",sans-serif;
+      line-height:1.6;
+      color:var(--text);
+      background:linear-gradient(135deg, #7a0b0b 0%, #2b0000 22%, #0f0000 45%, #000000 72%, #000000 100%) fixed;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+    .page{max-width:960px; margin:0 auto; padding:32px 20px 72px}
+    header{ text-align:center; margin:16px 0 18px}
+    header img{ width:260px; max-width:70vw; height:auto; display:block; margin:0 auto 10px; filter:drop-shadow(0 6px 24px rgba(0,0,0,.55))}
+    h1{
+      margin:6px 0 6px;
+      font-size:30px; letter-spacing:.04em; text-transform:uppercase; font-weight:800;
+    }
+    .updated{
+      color:var(--text-muted);
+      font-size:14px; margin-bottom:8px;
+    }
+    .lead{
+      color:var(--text-dim);
+      background:var(--card);
+      border:1px solid var(--rule);
+      padding:14px 14px;
+      border-radius:14px;
+      backdrop-filter:saturate(120%) blur(2px);
+      margin:14px 0 22px;
+    }
+    h2{
+      font-size:20px; margin:26px 0 8px; font-weight:800; color:var(--accent-soft);
+    }
+    p, li{ color:var(--text-dim); font-size:16px}
+    section{ padding:16px 16px; background:rgba(0,0,0,.22); border:1px solid var(--rule); border-radius:16px; margin:14px 0}
+    section + section{ margin-top:18px}
+    a{ color:#fff; text-decoration:underline}
+    .toc{ display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 6px; padding:12px; border:1px dashed var(--rule); border-radius:12px; background:rgba(255,255,255,.03)}
+    .toc a{ text-decoration:none; padding:6px 10px; border-radius:999px; border:1px solid var(--rule)}
+    footer{
+      margin-top:28px; padding-top:18px; border-top:1px solid var(--rule); color:var(--text-muted); font-size:14px; text-align:center
+    }
+    @media (prefers-reduced-motion:no-preference){
+      header img{transition:transform .2s ease}
+      header img:hover{transform:scale(1.02)}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <img src="logo_flame.jpg" alt="Logo Flame" />
+      <h1>Linee guida per la sicurezza</h1>
+      <div class="updated">Ultimo aggiornamento: 12 novembre 2025</div>
+    </header>
+
+    <p class="lead">
+      Queste linee guida hanno lo scopo di aiutarti a usare Flame in modo più sicuro e consapevole,
+      sia all’interno dell’App sia nell’eventuale passaggio a contatti e incontri nella vita reale.
+      Ti invitiamo a leggerle con attenzione e a rispettarle in ogni momento.
+    </p>
+
+    <div class="toc">
+      <a href="#1">1. Scopo del documento</a>
+      <a href="#2">2. Sicurezza del profilo</a>
+      <a href="#3">3. Sicurezza in chat</a>
+      <a href="#4">4. Richieste di denaro e truffe</a>
+      <a href="#5">5. Incontri dal vivo</a>
+      <a href="#6">6. Blocchi e segnalazioni</a>
+      <a href="#7">7. Comportamenti vietati</a>
+      <a href="#8">8. Protezione dell’account</a>
+      <a href="#9">9. Emergenze</a>
+      <a href="#10">10. Collegamenti utili</a>
+    </div>
+
+    <section id="1">
+      <h2>1. Scopo del documento</h2>
+      <p>
+        Flame è pensata per favorire nuove conoscenze e interazioni in un contesto protetto e rispettoso.
+        Nessuna piattaforma può garantire sicurezza assoluta, ma seguendo alcune regole semplici è possibile
+        ridurre sensibilmente i rischi. Questo documento raccoglie consigli pratici e indicazioni di comportamento
+        da tenere all’interno dell’App e durante eventuali incontri di persona.
+      </p>
+    </section>
+
+    <section id="2">
+      <h2>2. Sicurezza del profilo</h2>
+      <ul>
+        <li><strong>Non condividere dati troppo sensibili</strong> nel profilo (indirizzo di casa, numero di telefono personale, documenti, dati di lavoro riservati).</li>
+        <li><strong>Evita foto che rivelano luoghi privati</strong> (interni dell’abitazione, targhe di veicoli, documenti visibili sullo sfondo).</li>
+        <li><strong>Usa immagini rappresentative ma prudenti:</strong> preferisci foto scattate in luoghi pubblici o neutri.</li>
+        <li><strong>Non inserire link diretti</strong> a profili social che riportano altri dati sensibili se non ti senti a tuo agio nel farlo.</li>
+      </ul>
+    </section>
+
+    <section id="3">
+      <h2>3. Sicurezza in chat</h2>
+      <ul>
+        <li><strong>Non inviare mai password, codici di verifica o dati bancari</strong> tramite chat.</li>
+        <li><strong>Diffida da chi insiste per ottenere subito contatti esterni</strong> (numero di telefono, account di messaggistica) se non ti senti ancora a tuo agio.</li>
+        <li><strong>Presta attenzione al tono delle conversazioni:</strong> se qualcuno ti manca di rispetto o ti fa sentire a disagio, smetti di rispondere, blocca e segnala.</li>
+        <li><strong>Non aprire link sospetti</strong> o provenienti da fonti che non conosci o che ti sembrano incoerenti con la conversazione.</li>
+      </ul>
+    </section>
+
+    <section id="4">
+      <h2>4. Richieste di denaro e truffe</h2>
+      <p>
+        Le richieste di denaro o aiuti economici sono un forte segnale di allarme. In particolare:
+      </p>
+      <ul>
+        <li><strong>Non inviare mai denaro</strong> a persone conosciute solo tramite l’App.</li>
+        <li>Diffida di storie troppo drammatiche o urgenti (malattie improvvise, incidenti, problemi doganali) utilizzate per giustificare richieste economiche.</li>
+        <li>Non condividere dati di carte di credito, conti correnti, wallet digitali o credenziali di accesso.</li>
+        <li>Se sospetti una truffa, <strong>blocca e segnala subito il profilo</strong> e, se hai subito un danno, valuta di contattare le Autorità competenti.</li>
+      </ul>
+    </section>
+
+    <section id="5">
+      <h2>5. Incontri dal vivo</h2>
+      <p>
+        Se decidi di incontrare una persona conosciuta su Flame, ti suggeriamo alcune regole di prudenza:
+      </p>
+      <ul>
+        <li><strong>Incontra la persona in un luogo pubblico</strong> e frequentato (bar, ristorante, piazza, evento pubblico).</li>
+        <li><strong>Informa un amico o un familiare</strong> del luogo dell’incontro e dell’orario previsto.</li>
+        <li><strong>Organizza il tuo tragitto</strong> in autonomia: preferisci mezzi o veicoli che controlli tu, evitando passaggi non richiesti.</li>
+        <li>Se qualcosa non ti fa sentire a tuo agio, <strong>interrompi tranquillamente l’incontro</strong>. Il tuo benessere viene prima di tutto.</li>
+      </ul>
+    </section>
+
+    <section id="6">
+      <h2>6. Blocchi e segnalazioni</h2>
+      <p>
+        Flame mette a disposizione strumenti di blocco e segnalazione per aiutarti a gestire situazioni indesiderate:
+      </p>
+      <ul>
+        <li><strong>Blocco:</strong> bloccare un utente significa impedirgli di contattarti ulteriormente tramite l’App.</li>
+        <li><strong>Segnalazione:</strong> segnalare un profilo o una conversazione ci permette di esaminare eventuali violazioni delle regole della community.</li>
+        <li>Le segnalazioni vengono trattate, per quanto possibile, in modo riservato e nel rispetto della normativa applicabile.</li>
+      </ul>
+    </section>
+
+    <section id="7">
+      <h2>7. Comportamenti vietati</h2>
+      <p>
+        Per tutelare tutti gli utenti, non sono ammessi, a titolo esemplificativo:
+      </p>
+      <ul>
+        <li>Molestie, minacce, insulti o discorsi d’odio.</li>
+        <li>Richieste esplicite di contenuti sessuali non richiesti o non consensuali.</li>
+        <li>Condivisione di contenuti violenti, discriminatori o illegali.</li>
+        <li>Creazione di profili falsi, utilizzo dell’App da parte o a favore di minorenni.</li>
+        <li>Qualsiasi comportamento contrario ai Termini di utilizzo o alle leggi applicabili.</li>
+      </ul>
+    </section>
+
+    <section id="8">
+      <h2>8. Protezione dell’account</h2>
+      <ul>
+        <li><strong>Usa una password complessa e unica</strong> per l’account associato a Flame.</li>
+        <li>Non condividere le tue credenziali con altre persone.</li>
+        <li>Se noti attività sospette, effettua il logout dai dispositivi e modifica la password.</li>
+        <li>Quando possibile, attiva eventuali funzioni di sicurezza aggiuntive messe a disposizione dal tuo dispositivo o dal fornitore di servizi email.</li>
+      </ul>
+    </section>
+
+    <section id="9">
+      <h2>9. Emergenze</h2>
+      <p>
+        In caso di pericolo immediato o se ritieni di essere vittima di un reato, <strong>contatta subito le Autorità competenti</strong>.
+        Puoi inoltre segnalarci situazioni gravi o sospette scrivendo a:
+        <a href="mailto:support@flameapp.it">support@flameapp.it</a>.
+      </p>
+    </section>
+
+    <section id="10">
+      <h2>10. Collegamenti utili</h2>
+      <p>
+        • <a href="privacy.html">Informativa sulla privacy</a><br/>
+        • <a href="delete-account.html">Eliminazione account</a>
+      </p>
+    </section>
+
+    <footer>
+      © Flame — Tutti i diritti riservati
+    </footer>
+  </main>
+</body>
+</html>
